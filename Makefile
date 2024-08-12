@@ -1,23 +1,12 @@
-CC = gcc
-CFLAGS = -Wall -Wextra -Iinclude
-LDFLAGS =
+.PHONY: all clean
 
-SRC = $(wildcard src/*.c)
-OBJ = $(patsubst src/%.c, build/%.o, $(SRC))
-TARGET = build/bank_system
+BUILD_DIR = build
 
-all: build_dir $(TARGET)
+all: $(BUILD_DIR)
+	cmake --build $(BUILD_DIR)
 
-build_dir:
-	@if not exist build (mkdir build)
-
-$(TARGET): $(OBJ)
-	$(CC) $(OBJ) -o $@ $(LDFLAGS)
-
-build/%.o: src/%.c
-	$(CC) $(CFLAGS) -c $< -o $@
+$(BUILD_DIR):
+	cmake -S . -B $(BUILD_DIR) -G Ninja -DCMAKE_C_COMPILER=gcc
 
 clean:
-	@if exist build (rd /s /q build)
-
-.PHONY: clean all build_dir
+	rm -rf $(BUILD_DIR)
