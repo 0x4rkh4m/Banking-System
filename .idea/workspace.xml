@@ -18,17 +18,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cc64390-ca7d-4b9b-a777-a3f731c36a49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/include/account.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/uuid4.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/account.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/uuid4.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bank_system.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,11 +159,22 @@
       <workItem from="1719998630043" duration="147000" />
       <workItem from="1719998807964" duration="19000" />
       <workItem from="1723471754263" duration="5962000" />
-      <workItem from="1723477867007" duration="711000" />
+      <workItem from="1723477867007" duration="1638000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
